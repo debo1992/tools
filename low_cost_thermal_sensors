@@ -1,0 +1,13 @@
+When thermal radiation (infrared light) from a scene enters the system, a lens focuses the incoming IR energy onto the array of micro-oxide-mirrors. Each mirror is either coated with an IR-absorbing layer or is made of a material that can directly absorb IR.
+
+The absorbed IR radiation heats up the micro-mirror. As the mirror warms, the underlying actuator expands, causing a tiny deflection (displacement or tilt) of the mirror.
+
+This deflection is measured optically:
+
+A visible probe light source (such as an LED) shines onto the mirror array from below. The mirrors reflect this probe light onto a CMOS sensor.
+
+As each mirror tilts by a slightly different angle (depending on how much IR it absorbed), the reflection shifts.
+
+The CMOS sensor records these shifts, translating them into pixel intensity values.
+
+By combining the responses of all the mirrors in the array, the system reconstructs a thermal image showing which parts of the scene are hotter or cooler.
